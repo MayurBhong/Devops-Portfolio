@@ -6,7 +6,7 @@ import { ScrollProgressBar } from "@/components/loading-screen";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — AWS & DevOps Engineer`,
+  title: `${siteConfig.name} - Portfolio`,
   description:
     "Portfolio of an AWS & DevOps Engineer specializing in cloud architecture, Kubernetes, Terraform, CI/CD automation, and observability.",
   keywords: [
@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: siteConfig.name }],
   openGraph: {
-    title: `${siteConfig.name} — AWS & DevOps Engineer`,
+    title: `${siteConfig.name} - Portfolio`,
     description: siteConfig.tagline,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — AWS & DevOps Engineer`,
+    title: `${siteConfig.name} - Portfolio`,
     description: siteConfig.tagline,
   },
   robots: { index: true, follow: true },
